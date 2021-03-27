@@ -17,7 +17,7 @@ public class MySecurityConfig  extends WebSecurityConfigurerAdapter {
 
 
     /**
-     *  for encoding use bcrypt
+     *  for encoding use bcrypt example '{bcrypt}some_bcrypt_expresion'
      * @param auth
      * @throws Exception
      */
