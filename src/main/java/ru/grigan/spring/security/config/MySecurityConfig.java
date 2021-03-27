@@ -15,6 +15,12 @@ public class MySecurityConfig  extends WebSecurityConfigurerAdapter {
     @Autowired
     private DataSource dataSource;
 
+
+    /**
+     *  for encoding use bcrypt
+     * @param auth
+     * @throws Exception
+     */
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 //        UserBuilder userBuilder = User.withDefaultPasswordEncoder();
